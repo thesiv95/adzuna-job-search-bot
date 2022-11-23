@@ -1,0 +1,23 @@
+{
+  "name": "job-search-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "luxon": "^3.1.0",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.60.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
